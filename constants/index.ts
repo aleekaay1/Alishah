@@ -289,7 +289,7 @@ export const PROJECTS = [
     description:
       "CAIC certification from USAII.",
     image: "/Ali-Shah-USAII.jpg",
-    link: "https://www.usaii.org",
+    link: "",
   },
 ] as const;
 
