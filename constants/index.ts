@@ -1,7 +1,5 @@
-import { FaYoutube, FaFacebook } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 import {
-  RxDiscordLogo,
-  RxGithubLogo,
   RxInstagramLogo,
   RxTwitterLogo,
   RxLinkedinLogo,
@@ -90,19 +88,19 @@ export const SKILL_DATA = [
 
 export const SOCIALS = [
   {
+    name: "LinkedIn",
+    icon: RxLinkedinLogo,
+    link: "https://www.linkedin.com/in/aleekaay/?originalSubdomain=pk",
+  },
+  {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://instagram.com/aleekaay",
   },
   {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
-  },
-  {
-    name: "Twitter",
+    name: "X",
     icon: RxTwitterLogo,
-    link: "https://x.com/_sanidhyy",
+    link: "https://x.com",
   },
 ] as const;
 
@@ -259,46 +257,36 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "Senior IT and Development Manager",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
+      "Leading design and optimization of digital infrastructure at Globe Life - AIL (PAZ Organization), focused on AI-integrated workflows, CRM architecture, internal platforms, and scalable operations.",
     image: "/projects/project-1.png",
-    link: "https://example.com",
+    link: "https://www.linkedin.com/in/aleekaay/?originalSubdomain=pk",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Director of Development & AI",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
+      "Directed AI and technology initiatives at Vektor Solutions LLC, building high-impact web and automation systems while driving innovation strategy and cross-functional growth.",
     image: "/projects/project-2.png",
-    link: "https://example.com",
+    link: "https://www.linkedin.com/in/aleekaay/?originalSubdomain=pk",
   },
   {
-    title: "Space Themed Website",
+    title: "Marketing & Operations Leadership",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      "Combined technology, sales, and operations experience across Motive, NETSOL, and multiple leadership roles in marketing, QA, and customer service to deliver measurable business outcomes.",
     image: "/projects/project-3.png",
-    link: "https://example.com",
+    link: "https://www.linkedin.com/in/aleekaay/?originalSubdomain=pk",
   },
 ] as const;
 
 export const FOOTER_DATA = [
   {
-    title: "Community",
+    title: "Profiles",
     data: [
       {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
-      },
-      {
-        name: "GitHub",
-        icon: RxGithubLogo,
-        link: "https://github.com",
-      },
-      {
-        name: "Discord",
-        icon: RxDiscordLogo,
-        link: "https://discord.com",
+        name: "LinkedIn",
+        icon: RxLinkedinLogo,
+        link: "https://www.linkedin.com/in/aleekaay/?originalSubdomain=pk",
       },
     ],
   },
@@ -308,37 +296,37 @@ export const FOOTER_DATA = [
       {
         name: "Instagram",
         icon: RxInstagramLogo,
-        link: "https://instagram.com",
+        link: "https://instagram.com/aleekaay",
       },
       {
-        name: "Twitter",
+        name: "Facebook",
+        icon: FaFacebook,
+        link: "https://facebook.com",
+      },
+      {
+        name: "X",
         icon: RxTwitterLogo,
-        link: "https://x.com/_sanidhyy",
-      },
-      {
-        name: "Linkedin",
-        icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
+        link: "https://x.com",
       },
     ],
   },
   {
-    title: "About",
+    title: "Contact",
     data: [
       {
-        name: "Become Sponsor",
+        name: "Portfolio",
         icon: null,
-        link: "https://youtube.com",
+        link: "https://alishahcv.vercel.app",
       },
       {
-        name: "Learning about me",
+        name: "View LinkedIn",
         icon: null,
-        link: "https://example.com",
+        link: "https://www.linkedin.com/in/aleekaay/?originalSubdomain=pk",
       },
       {
         name: "Contact Me",
         icon: null,
-        link: "mailto:contact@example.com",
+        link: "https://www.linkedin.com/in/aleekaay/?originalSubdomain=pk",
       },
     ],
   },
@@ -346,8 +334,12 @@ export const FOOTER_DATA = [
 
 export const NAV_LINKS = [
   {
-    title: "About me",
+    title: "About",
     link: "#about-me",
+  },
+  {
+    title: "Experience",
+    link: "#experience",
   },
   {
     title: "Skills",
@@ -360,5 +352,112 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
+  sourceCode: "https://alishahcv.vercel.app",
 };
+
+export const EXPERIENCE_DATA = [
+  {
+    title: "Senior IT and Development Manager",
+    company: "Globe Life AIL Division: Paz Organization",
+    duration: "Feb 2026 - Present",
+    location: "Ontario, Canada - Remote",
+  },
+  {
+    title: "Director of Development & AI",
+    company: "Vektor Solutions LLC",
+    duration: "Jul 2024 - Mar 2026",
+    location: "Lahore - Hybrid",
+  },
+  {
+    title: "Account Executive",
+    company: "Motive",
+    duration: "May 2023 - Mar 2024",
+    location: "Lahore, Pakistan - Remote",
+  },
+  {
+    title: "General Manager",
+    company: "Astrapi Tech",
+    duration: "Oct 2022 - Jun 2023",
+    location: "Lahore, Pakistan",
+  },
+  {
+    title: "Marketing Executive / Chief of Staff",
+    company: "NETSOL Technologies Pakistan",
+    duration: "May 2022 - Jan 2023",
+    location: "Lahore, Pakistan",
+  },
+  {
+    title: "Additional Roles",
+    company: "SalesNation, Portal Esports, Xceed Connections, Touchstone, and more",
+    duration: "2016 - 2022",
+    location: "Pakistan & United States",
+  },
+] as const;
+
+export const EDUCATION_DATA = [
+  {
+    degree: "BBA",
+    institute: "Punjab University",
+    duration: "2020 - Continue",
+  },
+  {
+    degree: "Intermediate in Computer Sciences",
+    institute: "Islamabad College for Boys, G-6/3",
+    duration: "2016 - 2018",
+  },
+  {
+    degree: "Matriculation",
+    institute: "Islamabad Model School for Boys, Chak Shehzad",
+    duration: "2014 - 2016",
+  },
+] as const;
+
+export const ACHIEVEMENTS_DATA = [
+  "WON CSGO TOURNAMENT - 2022",
+  "PROJECT OF THE MONTH - 2021",
+  "MANAGER OF THE YEAR AWARD - 2020",
+  "INTEL ISEF 2ND PRIZE - 2018",
+] as const;
+
+export const CERTIFICATIONS_DATA = [
+  {
+    name: "Google UX Design Certificate",
+    issuer: "Google / Credly",
+    link: "https://www.credly.com/badges/19a7697a-7b6a-48de-b20a-9011e2241167/linked_in_profile",
+  },
+  {
+    name: "LinkedIn Content and Creative Design",
+    issuer: "LinkedIn Marketing Labs",
+    link: "https://verify.skilljar.com/c/4icaev9jbxtf",
+  },
+  {
+    name: "Google AI Essentials",
+    issuer: "Google / Credly",
+    link: "https://www.credly.com/badges/7638087c-f406-4268-9187-432de5e8dd91/linked_in_profile",
+  },
+  {
+    name: "Google Digital Marketing & E-Commerce Certificate",
+    issuer: "Google / Credly",
+    link: "https://www.credly.com/badges/23c55973-0916-45f0-8d7c-f16e2a37295f/linked_in_profile",
+  },
+  {
+    name: "SEO Certified",
+    issuer: "HubSpot Academy",
+    link: "https://app-na2.hubspot.com/academy/achievements/gv06f4p5/en/1/ali-shah/seo",
+  },
+  {
+    name: "Mastering in Selling Skills",
+    issuer: "Future ICON",
+    link: "https://www.linkedin.com/in/aleekaay/?originalSubdomain=pk",
+  },
+  {
+    name: "English Proficiency",
+    issuer: "HALLO",
+    link: "https://www.linkedin.com/in/aleekaay/?originalSubdomain=pk",
+  },
+  {
+    name: "Ethical Hacking & Penetration Testing (CEH)",
+    issuer: "EC-Council",
+    link: "https://www.linkedin.com/in/aleekaay/?originalSubdomain=pk",
+  },
+] as const;
