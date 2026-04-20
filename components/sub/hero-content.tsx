@@ -33,11 +33,11 @@ export const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl text-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Building{" "}
+            Turning{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              scalable
+              ideas
             </span>{" "}
-            digital systems.
+            into digital experiences.
           </span>
         </motion.div>
 
@@ -45,9 +45,8 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Senior IT and Development Manager focused on CRM architecture, AI
-          integration, workflow automation, and business-driven technology
-          execution.
+          This is my personal CV portfolio - sharing my journey across IT,
+          development, AI integration, and creative problem-solving.
         </motion.p>
 
         <motion.a

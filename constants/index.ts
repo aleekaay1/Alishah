@@ -257,25 +257,39 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Senior IT and Development Manager",
+    title: "Google UX Design Certificate",
     description:
-      "Leading design and optimization of digital infrastructure at Globe Life - AIL (PAZ Organization), focused on AI-integrated workflows, CRM architecture, internal platforms, and scalable operations.",
-    image: "/projects/project-1.png",
-    link: "https://www.linkedin.com/in/aleekaay/?originalSubdomain=pk",
+      "Issued by Google. Verified via Credly.",
+    image: "/ux%20design%20certificate.png",
+    link: "https://www.credly.com/badges/19a7697a-7b6a-48de-b20a-9011e2241167/linked_in_profile",
   },
   {
-    title: "Director of Development & AI",
+    title: "LinkedIn Content and Creative Design",
     description:
-      "Directed AI and technology initiatives at Vektor Solutions LLC, building high-impact web and automation systems while driving innovation strategy and cross-functional growth.",
-    image: "/projects/project-2.png",
-    link: "https://www.linkedin.com/in/aleekaay/?originalSubdomain=pk",
+      "LinkedIn Marketing Labs certification with active verification.",
+    image: "/linkedin%20content%20%26%20design%20certificate.jpg",
+    link: "https://verify.skilljar.com/c/4icaev9jbxtf",
   },
   {
-    title: "Marketing & Operations Leadership",
+    title: "Google AI Essentials",
     description:
-      "Combined technology, sales, and operations experience across Motive, NETSOL, and multiple leadership roles in marketing, QA, and customer service to deliver measurable business outcomes.",
-    image: "/projects/project-3.png",
-    link: "https://www.linkedin.com/in/aleekaay/?originalSubdomain=pk",
+      "Foundational AI certification issued by Google.",
+    image: "/google%20ai%20essentials.png",
+    link: "https://www.credly.com/badges/7638087c-f406-4268-9187-432de5e8dd91/linked_in_profile",
+  },
+  {
+    title: "SEO Certified",
+    description:
+      "HubSpot Academy SEO certification and achievement record.",
+    image: "/seo%20certificate.png",
+    link: "https://app-na2.hubspot.com/academy/achievements/gv06f4p5/en/1/ali-shah/seo",
+  },
+  {
+    title: "Certified Artificial Intelligence Consultant (CAIC)",
+    description:
+      "CAIC certification from USAII.",
+    image: "/Ali-Shah-USAII.jpg",
+    link: "https://www.usaii.org",
   },
 ] as const;
 
@@ -346,14 +360,10 @@ export const NAV_LINKS = [
     link: "#skills",
   },
   {
-    title: "Projects",
+    title: "Certificates",
     link: "#projects",
   },
 ] as const;
-
-export const LINKS = {
-  sourceCode: "https://alishahcv.vercel.app",
-};
 
 export const EXPERIENCE_DATA = [
   {
