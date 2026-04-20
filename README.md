@@ -53,6 +53,7 @@ space-portfolio/
     |-- icon1.png
     |-- icon2.png
     |-- layout.tsx
+    |-- opengraph-image.tsx
     |-- page.tsx
     |-- robots.ts
     |-- sitemap.ts
