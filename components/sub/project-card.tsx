@@ -15,15 +15,17 @@ export const ProjectCard = ({
   link,
 }: ProjectCardProps) => {
   const cardClassName =
-    "relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] h-full bg-[#0300145e] flex flex-col";
+    "relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] bg-[#0300145e] flex flex-col";
 
   const cardContent = (
     <>
-      <div className="relative w-full aspect-[16/10] bg-[#0b0620]">
+      <div className="relative w-full h-44 sm:h-48 md:h-52 bg-[#0b0620]">
         <Image
           src={src}
           alt={title}
           fill
+          unoptimized
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className="object-contain p-2"
         />
       </div>
