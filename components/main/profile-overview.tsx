@@ -78,7 +78,7 @@ export const ProfileOverview = () => {
           animate="visible"
           className="border border-[#2A0E61] bg-[#0300145e] rounded-xl p-6"
         >
-          <h3 className="text-xl font-semibold text-white mb-4">Education</h3>
+          <h3 className="text-xl font-semibold text-white mb-4">Formal Education</h3>
           <div className="space-y-4 mb-8">
             {EDUCATION_DATA.map((item) => (
               <div key={`${item.degree}-${item.institute}`}>

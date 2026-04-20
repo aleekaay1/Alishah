@@ -406,11 +406,6 @@ export const EXPERIENCE_DATA = [
 
 export const EDUCATION_DATA = [
   {
-    degree: "BBA",
-    institute: "Punjab University",
-    duration: "2020 - Continue",
-  },
-  {
     degree: "Intermediate in Computer Sciences",
     institute: "Islamabad College for Boys, G-6/3",
     duration: "2016 - 2018",
