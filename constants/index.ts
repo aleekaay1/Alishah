@@ -278,6 +278,13 @@ export const PROJECTS = [
     link: "https://www.credly.com/badges/7638087c-f406-4268-9187-432de5e8dd91/linked_in_profile",
   },
   {
+    title: "Google Digital Marketing & E-Commerce Certificate",
+    description:
+      "Issued by Google. Verification available on Credly.",
+    image: "/google%20digital%20marketing%20%26%20e%20commerce.png",
+    link: "https://www.credly.com/badges/23c55973-0916-45f0-8d7c-f16e2a37295f/linked_in_profile",
+  },
+  {
     title: "SEO Certified",
     description:
       "HubSpot Academy SEO certification and achievement record.",
