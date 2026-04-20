@@ -429,6 +429,12 @@ export const NAV_LINKS = [
 
 export const EXPERIENCE_DATA = [
   {
+    title: "CEO",
+    company: "Xamarah Solutions LLC (Medical Billing & IT Services) - xamarah.com",
+    duration: "2026 - Present",
+    location: "United States - Remote",
+  },
+  {
     title: "Senior IT and Development Manager",
     company: "Globe Life AIL Division: Paz Organization",
     duration: "Feb 2026 - Present",
