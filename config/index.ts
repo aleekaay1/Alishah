@@ -13,6 +13,11 @@ export const siteConfig: Metadata = {
   alternates: {
     canonical: "/",
   },
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
   keywords: [
     "Ali Shah",
     "Ali Shah CV",
