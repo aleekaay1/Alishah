@@ -15,12 +15,12 @@ export const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-col lg:flex-row items-center justify-center px-6 md:px-10 lg:px-20 mt-28 md:mt-36 lg:mt-40 w-full z-[20] gap-8 lg:gap-0"
+      className="flex flex-col lg:flex-row items-center justify-center px-6 md:px-10 lg:px-20 mt-36 md:mt-40 lg:mt-40 w-full z-[20] gap-8 lg:gap-0"
     >
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-center lg:text-start">
+      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-center lg:text-start pt-4 md:pt-0">
         <motion.div
           variants={slideInFromTop}
-          className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]]"
+          className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]] hidden md:flex"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
