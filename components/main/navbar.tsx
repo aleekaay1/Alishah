@@ -18,10 +18,12 @@ export const Navbar = () => {
           className="flex items-center h-full"
         >
           <Image
-            src="/logo.png?v=20260420"
+            src="/logo.png?v=20260421-1"
             alt="Logo"
             width={220}
             height={60}
+            priority
+            unoptimized
             draggable={false}
             className="cursor-pointer h-[60px] w-auto max-w-none object-contain"
           />
