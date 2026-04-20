@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 const siteUrl = "https://alishahcv.vercel.app";
+const socialPreviewImage = `${siteUrl}/logo.png?v=20260421`;
 
 export const siteConfig: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -46,7 +47,7 @@ export const siteConfig: Metadata = {
     type: "website",
     images: [
       {
-        url: "/logo.png",
+        url: socialPreviewImage,
         width: 1200,
         height: 630,
         alt: "Ali Shah CV Portfolio",
@@ -58,7 +59,7 @@ export const siteConfig: Metadata = {
     title: "Ali Shah | CV Portfolio",
     description:
       "Personal CV portfolio of Ali Shah with certifications, experience, and professional highlights.",
-    images: ["/logo.png"],
+    images: [socialPreviewImage],
   },
   robots: {
     index: true,
