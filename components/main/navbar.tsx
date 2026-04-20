@@ -9,9 +9,9 @@ export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001427] backdrop-blur-md z-50 px-10">
+    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001427] backdrop-blur-md z-50 px-3 md:px-10">
       {/* Navbar Container */}
-      <div className="w-full h-full flex items-center justify-between m-auto px-[10px]">
+      <div className="w-full h-full flex items-center justify-between m-auto px-1 md:px-[10px]">
         {/* Logo */}
         <Link
           href="#about-me"
@@ -25,7 +25,7 @@ export const Navbar = () => {
             priority
             unoptimized
             draggable={false}
-            className="cursor-pointer h-[60px] w-auto max-w-none object-contain"
+            className="cursor-pointer h-[46px] md:h-[60px] w-auto max-w-[180px] md:max-w-none object-contain"
           />
         </Link>
 
@@ -61,7 +61,7 @@ export const Navbar = () => {
 
         {/* Hamburger Menu */}
         <button
-          className="md:hidden text-white focus:outline-none text-4xl"
+          className="md:hidden text-white focus:outline-none text-3xl"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           ☰
