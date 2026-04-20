@@ -300,6 +300,57 @@ export const PROJECTS = [
   },
 ] as const;
 
+export const WEBSITE_PORTFOLIO = [
+  {
+    title: "Globe Life PAZ",
+    domain: "globelife-paz.com",
+    image: "/globelife-paz-com.jpeg",
+    link: "https://globelife-paz.com",
+  },
+  {
+    title: "Globe Life Academy",
+    domain: "globelifeacademy.com",
+    image: "/globelifeacademy-com.jpeg",
+    link: "https://globelifeacademy.com",
+  },
+  {
+    title: "Integers Media",
+    domain: "integersmedia.com",
+    image: "/integersmedia-com.jpeg",
+    link: "https://integersmedia.com",
+  },
+  {
+    title: "Klaims AI",
+    domain: "klaims.ai",
+    image: "/klaims-ai.jpeg",
+    link: "https://klaims.ai",
+  },
+  {
+    title: "NYSSMMT",
+    domain: "nyssmmt.org",
+    image: "/nyssmmt-org.jpeg",
+    link: "https://nyssmmt.org",
+  },
+  {
+    title: "Veksol",
+    domain: "veksol.com",
+    image: "/veksol-com.jpeg",
+    link: "https://veksol.com",
+  },
+  {
+    title: "Vektor Solutions",
+    domain: "vektorsolutions.io",
+    image: "/vektorsolutions-io.jpeg",
+    link: "https://vektorsolutions.io",
+  },
+  {
+    title: "Xceed Connections",
+    domain: "xceedconnections.com",
+    image: "/xceedconnections-com.jpeg",
+    link: "https://xceedconnections.com",
+  },
+] as const;
+
 export const FOOTER_DATA = [
   {
     title: "Profiles",
@@ -365,6 +416,10 @@ export const NAV_LINKS = [
   {
     title: "Skills",
     link: "#skills",
+  },
+  {
+    title: "Portfolio",
+    link: "#portfolio",
   },
   {
     title: "Certificates",
