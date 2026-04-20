@@ -21,18 +21,18 @@ export const ProjectCard = ({
       rel="noreferrer noopener"
       className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] h-full bg-[#0300145e] flex flex-col"
     >
-      <div className="relative w-full aspect-square">
+      <div className="relative w-full aspect-[16/10] bg-[#0b0620]">
         <Image
           src={src}
           alt={title}
           fill
-          className="object-cover"
+          className="object-contain p-2"
         />
       </div>
 
-      <div className="relative p-4">
-        <h1 className="text-xl font-semibold text-white">{title}</h1>
-        <p className="mt-2 text-gray-300">{description}</p>
+      <div className="relative p-3">
+        <h1 className="text-lg font-semibold text-white">{title}</h1>
+        <p className="mt-1 text-sm text-gray-300">{description}</p>
       </div>
     </Link>
   );
