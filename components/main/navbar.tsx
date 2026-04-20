@@ -12,20 +12,19 @@ export const Navbar = () => {
     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001427] backdrop-blur-md z-50 px-10">
       {/* Navbar Container */}
       <div className="w-full h-full flex items-center justify-between m-auto px-[10px]">
-        {/* Logo + Name */}
+        {/* Logo */}
         <Link
           href="#about-me"
-          className="flex items-center"
+          className="flex items-center h-full"
         >
           <Image
             src="/logo.png"
             alt="Logo"
-            width={70}
-            height={70}
+            width={220}
+            height={60}
             draggable={false}
-            className="cursor-pointer"
+            className="cursor-pointer h-[60px] w-auto max-w-none object-contain"
           />
-          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">Ali Shah</div>
         </Link>
 
         {/* Web Navbar */}
