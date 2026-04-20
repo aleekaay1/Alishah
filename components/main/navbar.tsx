@@ -18,7 +18,7 @@ export const Navbar = () => {
           className="flex items-center h-full"
         >
           <Image
-            src="/logo.png"
+            src="/logo.png?v=20260420"
             alt="Logo"
             width={220}
             height={60}
