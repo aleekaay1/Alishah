@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 const siteUrl = "https://alishahcv.vercel.app";
-const socialPreviewImage = `${siteUrl}/logo.png?v=20260421`;
+const socialPreviewImage = `${siteUrl}/opengraph-image`;
 
 export const siteConfig: Metadata = {
   metadataBase: new URL(siteUrl),
